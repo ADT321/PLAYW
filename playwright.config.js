@@ -43,10 +43,23 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+    //{
+     // name: 'chromium',
+     // use: { ...devices['Desktop Chrome'] },
+    //},
+
+    // Manual-only: run this whenever you need to (re)create the saved, authenticated session.
+    // npx playwright test auth.setup.ts --headed
+    { name: 'setup', testMatch: /.*\.setup\.ts/ },
     {
-      name: 'chromium',
-     use: { ...devices['Desktop Chrome'] },
+        name: 'chromium',
+        use: {
+            ...devices['Desktop Chrome'],
+            storageState: 'playwright/.auth/user.json',
+        },
+       // dependencies: ['setup'],
     },
+
 
     //{
    //   name: 'firefox',

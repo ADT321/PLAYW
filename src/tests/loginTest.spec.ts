@@ -1,8 +1,9 @@
 import { test } from "@playwright/test";
 import LoginPage from "../pages/loginPage";
 import{decrypt, encrypt} from "../utils/CryptojsUtil";
+import logger from "../utils/LoggerUtil";
 
-test.skip("test", async({page}) => {
+test("test", async({page}) => {
 
     const loginPage = new LoginPage(page);
     await loginPage.navigateToLoginPage();
@@ -14,13 +15,14 @@ test.skip("test", async({page}) => {
 
     const homePage = await loginPage.clickLoginButton();
     await homePage.expectServiceTitleToBeVisible();
+    logger.info("Test for login and home page is completed");
 
 });
-test("Sample env test", async({page}) => {
-   console.log(process.env.NODE_ENV);
-    console.log(process.env.userid);
-    console.log(process.env.password);
-});
+//test.skip("Sample env test", async({page}) => {
+  // console.log(process.env.NODE_ENV);
+    //console.log(process.env.userid);
+    //console.log(process.env.password);
+//});
 
 //test.skip("Sample env test", async({page}) => {
    // const plainText = 'Hello Mars!';
