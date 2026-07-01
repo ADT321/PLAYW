@@ -33,16 +33,16 @@ test(`Advance DD test for ${contact.firstName} `, async({page}) => {
    logger.info("Test for contact creation is completed");
 
 });}
-test.skip("demo faker", async () => {
-    console.log(demoOutput)
+//test.skip("demo faker", async () => {
+   // console.log(demoOutput)
 
-});
+//});
 
-test.skip ("Faker", async({page}) => {
+//test.skip ("Faker", async({page}) => {
     //Generate Test Data
-    const testData = generateTestData(20);
+   // const testData = generateTestData(20);
     //Export Data to Json File
-    exportToJson(testData, 'testData_en.json');
+   // exportToJson(testData, 'testData_en.json');
     //Export Data to CSV File
-    exportToCsv(testData, 'testData_en.csv');
-});
+  //  exportToCsv(testData, 'testData_en.csv');
+//});

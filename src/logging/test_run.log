@@ -139,3 +139,43 @@
 2026-06-30T15:48:51+05:00 [INFO]: Save Button is clicked
 2026-06-30T15:48:53+05:00 [INFO]: New contact created and Orange purple is visible in Contacts list
 2026-06-30T15:48:53+05:00 [INFO]: Test for contact creation is completed
+2026-07-01T18:26:56+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:26:56+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:27:14+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:27:15+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:27:17+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:27:17+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:27:35+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:27:35+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:27:37+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:27:38+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:27:54+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:27:56+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:27:56+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:27:58+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:28:14+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:28:17+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:32:27+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:32:27+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:32:46+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:32:47+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-07-01T18:34:27+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:34:27+05:00 [INFO]: Test for contact creation is started ...
+2026-07-01T18:34:34+05:00 [INFO]: Service home Page is loaded
+2026-07-01T18:34:34+05:00 [INFO]: Contacts tab is visible
+2026-07-01T18:34:34+05:00 [INFO]: Contacts tab is clicked
+2026-07-01T18:34:37+05:00 [INFO]: New button is clicked
+2026-07-01T18:34:45+05:00 [INFO]: Service home Page is loaded
+2026-07-01T18:34:45+05:00 [INFO]: Contacts tab is visible
+2026-07-01T18:34:45+05:00 [INFO]: Contacts tab is clicked
+2026-07-01T18:34:45+05:00 [INFO]: First name is filled as Orangad
+2026-07-01T18:34:45+05:00 [INFO]: Last name is filled as purplead
+2026-07-01T18:34:45+05:00 [INFO]: Save Button is clicked
+2026-07-01T18:34:48+05:00 [INFO]: New button is clicked
+2026-07-01T18:34:49+05:00 [INFO]: New contact created and Orangad purplead is visible in Contacts list
+2026-07-01T18:34:49+05:00 [INFO]: Test for contact creation is completed
+2026-07-01T18:34:50+05:00 [INFO]: First name is filled as sunad
+2026-07-01T18:34:50+05:00 [INFO]: Last name is filled as starad
+2026-07-01T18:34:50+05:00 [INFO]: Save Button is clicked
+2026-07-01T18:34:51+05:00 [INFO]: New contact created and sunad starad is visible in Contacts list
+2026-07-01T18:34:51+05:00 [INFO]: Test for contact creation is completed
