@@ -3,14 +3,15 @@ import { test } from "@playwright/test";
 //import{decrypt, encrypt} from "../utils/CryptojsUtil";
 import logger from "../utils/LoggerUtil";
 import HomePage from "../pages/HomePage";
-import cdata from "../testdata/contacts.json";
+import cdata from "../testdata/datademo.json";
+import { demoOutput } from "../utils/fakersample";
+import { exportToCsv, exportToJson, generateTestData } from "../utils/FakerDataUtil";
+
 
 for (const contact of cdata){
 test(`Advance DD test for ${contact.firstName} `, async({page}) => {
     logger.info("Test for contact creation is started ...");
-   // const fname = "mad";
-    //const lname = "gull";
-
+   
    // const loginPage = new LoginPage(page);
    // await loginPage.navigateToLoginPage();
    // await loginPage.fillUsername("adnantariq8383.ce692df82175@agentforce.com");
@@ -31,4 +32,17 @@ test(`Advance DD test for ${contact.firstName} `, async({page}) => {
    await contactsPage.expectContactLabelContainsFirstNameAndLastName(contact.firstName, contact.lastName);
    logger.info("Test for contact creation is completed");
 
-})};
+});}
+test.skip("demo faker", async () => {
+    console.log(demoOutput)
+
+});
+
+test.skip ("Faker", async({page}) => {
+    //Generate Test Data
+    const testData = generateTestData(20);
+    //Export Data to Json File
+    exportToJson(testData, 'testData_en.json');
+    //Export Data to CSV File
+    exportToCsv(testData, 'testData_en.csv');
+});

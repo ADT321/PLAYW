@@ -4,7 +4,7 @@ import logger from "../utils/LoggerUtil";
 
 export default class LoginPage {
     private readonly usernameInputSelector = "#username";
-    private readonly passwordInputSelector = "#password";
+    private readonly passwordInputSelector = "#password009";
     private readonly loginbuttonSelector = "#Login";
     
     

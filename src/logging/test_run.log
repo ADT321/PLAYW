@@ -115,3 +115,27 @@
 2026-06-29T20:08:54+05:00 [INFO]: Save Button is clicked
 2026-06-29T20:08:55+05:00 [INFO]: New contact created and blue black is visible in Contacts list
 2026-06-29T20:08:55+05:00 [INFO]: Test for contact creation is completed
+2026-06-30T15:37:01+05:00 [INFO]: Test for contact creation is started ...
+2026-06-30T15:37:01+05:00 [INFO]: Test for contact creation is started ...
+2026-06-30T15:37:19+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-06-30T15:37:19+05:00 [ERROR]: Home page with Service title not loaded : ${error}
+2026-06-30T15:48:37+05:00 [INFO]: Test for contact creation is started ...
+2026-06-30T15:48:37+05:00 [INFO]: Test for contact creation is started ...
+2026-06-30T15:48:44+05:00 [INFO]: Service home Page is loaded
+2026-06-30T15:48:44+05:00 [INFO]: Contacts tab is visible
+2026-06-30T15:48:44+05:00 [INFO]: Contacts tab is clicked
+2026-06-30T15:48:45+05:00 [INFO]: Service home Page is loaded
+2026-06-30T15:48:45+05:00 [INFO]: Contacts tab is visible
+2026-06-30T15:48:45+05:00 [INFO]: Contacts tab is clicked
+2026-06-30T15:48:47+05:00 [INFO]: New button is clicked
+2026-06-30T15:48:48+05:00 [INFO]: New button is clicked
+2026-06-30T15:48:49+05:00 [INFO]: First name is filled as sun
+2026-06-30T15:48:49+05:00 [INFO]: Last name is filled as star
+2026-06-30T15:48:49+05:00 [INFO]: Save Button is clicked
+2026-06-30T15:48:50+05:00 [INFO]: New contact created and sun star is visible in Contacts list
+2026-06-30T15:48:50+05:00 [INFO]: Test for contact creation is completed
+2026-06-30T15:48:50+05:00 [INFO]: First name is filled as Orange
+2026-06-30T15:48:50+05:00 [INFO]: Last name is filled as purple
+2026-06-30T15:48:51+05:00 [INFO]: Save Button is clicked
+2026-06-30T15:48:53+05:00 [INFO]: New contact created and Orange purple is visible in Contacts list
+2026-06-30T15:48:53+05:00 [INFO]: Test for contact creation is completed
