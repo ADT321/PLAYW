@@ -28,6 +28,7 @@ test(`Advance DD test for ${contact.firstName} `, async({page}) => {
     const homePage = new HomePage(page);
     await homePage.expectServiceTitleToBeVisible(); 
    const contactsPage = await homePage.navigateToContactTab();
+   logger.info("contact tab is loaded");
    await contactsPage.createNewContact(contact.firstName, contact.lastName);
    await contactsPage.expectContactLabelContainsFirstNameAndLastName(contact.firstName, contact.lastName);
    logger.info("Test for contact creation is completed");
