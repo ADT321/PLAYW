@@ -52,11 +52,3 @@ test("login with Auth file", async ({page}) =>{
     //console.log(process.env.password);
 //});
 
-//test.skip("Sample env test", async({page}) => {
-   // const plainText = 'Hello Mars!';
-    //const encryptedText = encrypt(plainText);
-    //console.log('SALT:',process.env.SALT);
-   // console.log('EncryptedTxt:',encryptedText);
-   // const decryptedText = decrypt(encryptedText);
-    //console.log('DecryptedTxt:', decryptedText);
-//});
